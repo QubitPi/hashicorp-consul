@@ -1,3 +1,7 @@
+See [more details on how documentation is build][Forked HashiCorp Dev Portal]
+
+[Forked HashiCorp Dev Portal]: https://github.com/QubitPi/hashicorp-dev-portal
+
 # Consul Website
 
 This subdirectory contains the entire source for the [Consul Website](https://consul.io/). This is a [NextJS](https://nextjs.org/) project, which builds a static site from these source files.
