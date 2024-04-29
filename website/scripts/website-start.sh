@@ -32,4 +32,4 @@ if [ "$should_pull" = true ]; then
 fi
 
 # Run the dev-portal content-repo start script
-REPO=$PRODUCT PREVIEW_MODE=$PREVIEW_MODE PRODUCT_DOC_BASE_PATH=/hashicorp-consul npm run start:local-preview
+REPO=$PRODUCT PREVIEW_MODE=$PREVIEW_MODE PRODUCT_DOC_BASE_PATH="" npm run start:local-preview
