@@ -38,4 +38,4 @@ fi
 cd "$PREVIEW_DIR"
 
 # Run the build:deploy-preview start script
-PREVIEW_MODE=$PREVIEW_MODE REPO=$PRODUCT HASHI_ENV=project-preview PRODUCT_DOC_BASE_PATH=/hashicorp-consul npm run build:deploy-preview
+PREVIEW_MODE=$PREVIEW_MODE REPO=$PRODUCT HASHI_ENV=project-preview PRODUCT_DOC_BASE_PATH="" npm run build:deploy-preview
