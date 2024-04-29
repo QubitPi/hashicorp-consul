@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MPL-2.0
 
 on:
-  issues:
-    types: [opened, closed, deleted, reopened]
+#  issues:
+#    types: [opened, closed, deleted, reopened]
   issue_comment:
     types: [created]
   workflow_dispatch:
